@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.wear.widget.CircularProgressLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_grey"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context="com.example.kushagra_standard.wearapplication.balanceactivity"
+    tools:deviceIds="wear">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        app:boxedEdges="all">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="€ 2500,22"
+            android:textStyle="bold"
+            android:textColor="#ffd200"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+
+            android:padding="@dimen/inner_frame_layout_padding"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:background="#009286"
+            android:orientation="vertical"
+            android:layout_weight="1"
+          >
+
+            <TextView
+                      android:textSize="10sp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+
+                android:text="Last statement:" />
+
+            <TextView
+                android:textSize="14sp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+
+                android:text="€ 25,22 @albert Heijn" />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.wear.widget.CircularProgressLayout>
+
