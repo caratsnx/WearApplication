@@ -23,7 +23,7 @@
 
         <activity
             android:name=".StartScreen"
-            android:label="@string/title_activity_start_screen">
+            android:label="ABNAMRO Wear">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
