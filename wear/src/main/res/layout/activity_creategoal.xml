@@ -25,6 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:onClick="clickName"
             android:inputType="textPersonName"
 
             android:textColor="#ffd200"
@@ -35,9 +36,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
               android:hint="Goal Amount"
+            android:onClick="clickAmount"
             android:textColorHint="#ffd200"
             android:textColor="#ffd200"
-
+            android:id="@+id/editText1"
             android:ems="10"
             android:inputType="number" />
 

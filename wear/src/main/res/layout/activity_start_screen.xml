@@ -14,9 +14,20 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/abnamro"
+        android:onClick="clickButton"
         android:padding="@dimen/inner_frame_layout_padding"
         app:boxedEdges="all">
+<TextView
 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom|center"
+    android:text="Swipe to enter"
+    android:textColor="#608e28"
+    android:textStyle="bold"
+    android:textSize="18sp"
+    android:layout_margin="20dp"
+    />
 
         <Button
             android:id="@+id/text"
@@ -26,6 +37,7 @@
             android:layout_marginBottom="10dp"
             android:background="#FAB414"
             android:gravity="center"
+            android:visibility="gone"
             android:onClick="clickButton"
             android:shadowColor="@color/black"
             android:text="Login"
